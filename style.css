@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+#menuPrincipal{
+    display: flex;
+    background: #000000;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 20px 90px;
+
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    height: 65px;
+}
+
+a{
+    padding: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.tela{
+    background: lightgray;
+   
+}
+.telao{
+    justify-content: space-around;
+    padding: 100px 150px;
+    display: flex;
+}
+.dragão{
+    width: 600px;
+    height:300px;
+}
+.informativo{
+ width: 500px;
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+    border: rgb(255, 140, 0);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 140, 0);
+}
+
+footer{
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    align-content: center;
+}
+
+.molder{
+    margin: 30px 100px;
+}
+
+#fotopreta{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+
+.separador{
+    display: flex;
+    justify-content: center;
+}
+
+.separar{
+    width: 320px;
+    padding: 0 30px;
+}
+
+.fundo{
+    color: white;
+    background: #292828;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 130px;
+
+}
+
+.parte{
+    padding: 0 20px;
+    width: 500px;
+    
+}
+
+
+.data{
+    width: 50px;
+    height: 50px;
+
+    color: black;
+    background: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px 6px;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+.datas{
+    display: flex;
+    margin: 0 15px;
+}
+
+.cont{
+    margin-left: 10px;
+}
+
+.midia{
+    display: flex;
+}
+
+.midia p{
+    padding: 0 5px;
+
+}
+
+@media only screen and (max-width: 1920px) {
+    .geral {
+        max-width: 1920px;
+        margin: 0 auto; 
+    }}
